@@ -33,9 +33,6 @@ It's recommended to download the repository to your local file system, especiall
 
 And, as mentioned earlier, the programming language you're using in your software project must be able to parse JSON, and if it doesn't have a built-in JSON parser you will need to write a custom one yourself.
 
-# License
-The Stellar Mesh is released under the Unlicense.
-
 # Quotes
 To fit the theme, here are some of my favorite quotes about space exploration:
 
@@ -63,3 +60,6 @@ To fit the theme, here are some of my favorite quotes about space exploration:
 
 # Future Plans
 Currently, the Stellar Mesh only covers the Sun (Sol), Venus, Earth, Mars, the Asteroid Belt, and the Moon (Luna). However, there are big plans for the future; plans as big as expanding the Stellar Mesh to include exoplanets in addition to members of our solar system!
+
+# License
+The Stellar Mesh is released under the Unlicense.
