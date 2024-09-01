@@ -60,3 +60,6 @@ To fit the theme, here are some of my favorite quotes about space exploration:
 > I think we are at the dawn of a new era in commercial space exploration.
 
 *- Elon Musk*
+
+# Future Plans
+Currently, the Stellar Mesh only covers the Sun (Sol), Venus, Earth, Mars, the Asteroid Belt, and the Moon (Luna). However, there are big plans for the future; plans as big as expanding the Stellar Mesh to include exoplanets in addition to members of our solar system!
