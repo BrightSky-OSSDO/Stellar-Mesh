@@ -1,0 +1,16 @@
+{
+    "name": "Earth",
+    "type": "planet",
+    "surface_temperature": 15,
+    "gravity": 9.81,
+    "day": 24,
+    "year": 365,
+    "rings": false,
+    "parent": "Sol",
+    "satellites": 1,
+    "atmosphere": {
+        "corrosive": false,
+        "breathable": true
+    },
+    "server": true
+}

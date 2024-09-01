@@ -1,0 +1,16 @@
+{
+    "name": "Venus",
+    "type": "planet",
+    "surface_temperature": 465,
+    "gravity": 8.87,
+    "day": 5832,
+    "year": 225,
+    "rings": false,
+    "parent": "Sol",
+    "satellites": 0,
+    "atmosphere": {
+        "corrosive": true,
+        "breathable": false
+    },
+    "server": true
+}
