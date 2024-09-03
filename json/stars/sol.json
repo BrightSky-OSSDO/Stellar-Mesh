@@ -1,0 +1,22 @@
+{
+    "name": "Sol",
+    "type": "star",
+    "surface_temperature": 5600,
+    "gravity": 274,
+    "day": 648,
+    "year": null,
+    "rings": false,
+    "parent": null,
+    "number_of_satellites": 4,
+    "satellites": [
+        "Venus",
+        "Earth",
+        "Mars",
+        "Asteroids"
+    ],
+    "atmosphere": {
+        "corrosive": false,
+        "breathable": false
+    },
+    "server": true
+}

@@ -1,0 +1,19 @@
+{
+    "name": "Asteroids",
+    "type": "planet",
+    "surface_temperature": -91,
+    "gravity": null,
+    "day": null,
+    "year": null,
+    "rings": false,
+    "parent": "Sol",
+    "number_of_satellites": 0,
+    "satellites": [
+
+    ],
+    "atmosphere": {
+        "corrosive": false,
+        "breathable": false
+    },
+    "server": true
+}
