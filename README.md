@@ -1,5 +1,5 @@
 # Stellar Mesh
-The Stellar Mesh is a network of servers throughout space, created with the intention of revolutionizing space exploration and establishing space communication, opening up possibilities for interplanetary video conferencing and text messaging between astronauts, or even interplanetary VPNs.
+The Stellar Mesh is a network of servers throughout space, created with the intention of revolutionizing space exploration and establishing space communication, opening up possibilities for interplanetary video conferencing and text messaging between astronauts, or even interplanetary VPNs. It is not meant to be a replacement for the Internet, but rather an addition to it.
 
 # Compatibility
 The Stellar Mesh can be used with any programming language that can parse JSON. If your desired progamming language doesn't have a built-in JSON parser, you will need to write one yourself.
@@ -15,7 +15,8 @@ The Stellar Mesh follows a specific syntax for each JSON file. Every celestial b
 - `year`: The amount of time it takes for the celestial body to make a full trip around its parent object, measured in Earth days. Must be an integer value. If the year length is a decimal number, it must be rounded to an integer. If the celestial body doesn't orbit anything, this value should be set to null.
 - `rings`: Whether or not the celestial body has a ring system. Boolean value.
 - `parent`: The name of the object around which the celestial body orbits. Must be a string value. If the celestial body doesn't orbit anything, this value should be set to null.
-- `satellites`: The number of natural satellites that orbit the celestial body. Integer value. For a planet, this value would refer to moons. For a star, this value would refer to planets. For a moon, this value would likely be 0 because most moons don't have natural satellites. **Note**: `satellites` does not include man-made objects that orbit a celestial body.
+- `number_of_satellites`: The number of natural satellites that orbit the celestial body. Integer value. For a planet, this value would refer to moons. For a star, this value would refer to planets. For a moon, this value would likely be 0 because most moons don't have natural satellites. Note that `satellites` does not include man-made objects that orbit a celestial body.
+- `satellites`: An array that contains the names of the celestial body's natural satellites. The satellite names are string values. If the celestial body has no natural satellites, this array will be empty.
 - `atmosphere`: A literal that contains information about the celestial body's atmosphere, including:
     - `corrosive`: Whether or not the atmosphere is corrosive. Boolean value. If the celestial body has no atmosphere, this value should be set to null.
     - `breathable`: Whether or not the atmosphere is breathable by humans. Boolean value. If the celestial body has no atmosphere, this value should be set to null.
@@ -59,7 +60,7 @@ To fit the theme, here are some of my favorite quotes about space exploration:
 *- Elon Musk*
 
 # Future Plans
-Currently, the Stellar Mesh only covers the Sun (Sol), Venus, Earth, Mars, the Asteroid Belt, and the Moon (Luna). However, there are big plans for the future; plans as big as expanding the Stellar Mesh to include exoplanets in addition to members of our solar system!
+Currently, the Stellar Mesh only covers the Sun (Sol), Venus, Earth, Mars, the Asteroid Belt, and the Moon (Luna). However, there are big plans for the future; plans as big as expanding the Stellar Mesh to include exoplanets!
 
 # License
 The Stellar Mesh is released under the Unlicense.
