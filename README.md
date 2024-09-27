@@ -10,9 +10,9 @@ The Stellar Mesh follows a specific syntax for each JSON file. Every celestial b
 - `name`: The celestial body's name. String value.
 - `type`: The type of celestial body (planet, moon, or star). Asteroids and the Asteroid Belt count as planets. String value.
 - `surface_temperature`: The average surface temperature of the celestial body in degrees Celcius. Must be an integer value. If the average surface temperature is a decimal number, it must be rounded to an integer.
-- `gravity`: The gravitational force of the celestial body in m/s² (meters per second squared). Must be a decimal value with 2 decimal places. If the gravitational force is an integer, ".00" must be appended to the end. For example, 5 would become 5.00. If the celestial body has no gravitational force, this value should be set to null.
+- `gravity`: The gravitational force of the celestial body in m/s² (meters per second squared). Must be a decimal value rounded to 2 decimal places. If the gravitational force is an integer, ".00" must be appended to the end. For example, 5 would become 5.00. If the celestial body has no gravitational force, this value should be set to null.
 - `day`: The amount of time it takes for the celestial body to complete a full rotation on its axis, measured in Earth hours. Must be an integer value. If the day length is a decimal number, it must be rounded to an integer. If the celestial body doesn't rotate, this value should be set to null.
-- `year`: The amount of time it takes for the celestial body to make a full trip around its parent object, measured in Earth days. Must be an integer value. If the year length is a decimal number, it must be rounded to an integer. If the celestial body doesn't orbit anything, this value should be set to null.
+- `year`: The amount of time it takes for the celestial body to make a full trip around its parent object, measured in Earth days. Must be a decimal value rounded to 2 decimal places. If the year length is an integer, ".00" should be appended to the end. If the celestial body doesn't orbit anything, this value should be set to null.
 - `rings`: Whether or not the celestial body has a ring system. Boolean value.
 - `parent`: The name of the object around which the celestial body orbits. Must be a string value. If the celestial body doesn't orbit anything, this value should be set to null.
 - `number_of_satellites`: The number of natural satellites that orbit the celestial body. Integer value. For a planet, this value would refer to moons. For a star, this value would refer to planets. For a moon, this value would likely be 0 because most moons don't have natural satellites. Note that this does not include man-made objects that orbit a celestial body.
@@ -32,7 +32,7 @@ To use the Stellar Mesh in your own software project, you have 2 choices:
 
 It's recommended to download the repository to your local file system, especially if you're developing a software that can be used offline. But if you don't care about offline use, you can feel free to just make a HTTP request to the repository instead.
 
-And, as mentioned earlier, the programming language you're using in your software project must be able to parse JSON, and if it doesn't have a built-in JSON parser you will need to write a custom one yourself.
+And, as mentioned earlier, the programming language you're using in your software project must be able to parse JSON, and if it doesn't have a built-in JSON parser you will need to write a custom one yourself (or download and use a premade JSON library if one exists).
 
 # Quotes
 To fit the theme, here are some of my favorite quotes about space exploration:
@@ -60,7 +60,7 @@ To fit the theme, here are some of my favorite quotes about space exploration:
 *- Elon Musk*
 
 # Future Plans
-Currently, the Stellar Mesh only covers the Sun (Sol), Venus, Earth, Mars, the Asteroid Belt, and the Moon (Luna). However, there are big plans for the future; plans as big as expanding the Stellar Mesh to include exoplanets!
+Currently, the Stellar Mesh only covers the Sun (Sol), Venus, Earth, Mars, Phobos, Deimos, the Asteroid Belt, and the Moon (Luna). However, there are big plans for the future; plans as big as expanding the Stellar Mesh to include exoplanets!
 
 # License
 The Stellar Mesh is released under the Unlicense.
