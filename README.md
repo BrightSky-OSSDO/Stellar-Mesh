@@ -63,7 +63,7 @@ To fit the theme, here are some of my favorite quotes about space exploration:
 Currently, the Stellar Mesh only covers the Sun (Sol), Venus, Earth, Mars, Phobos, Deimos, the Asteroid Belt, and the Moon (Luna). However, there are big plans for the future; plans as big as expanding the Stellar Mesh to include exoplanets!
 
 # Notes
-From September 29 to November 25 of 2024, Earth will have a second moon called 2024 PT5. 2O24 PT5 is a tiny asteroid that will get temporarily locked into Earth's orbit. This is very exciting news! However, 2024 PT5 will not be included in the Stellar Mesh because not much information about it is available, also it will only orbit Earth for a small amount of time. Therefore, I don't see any point in attempting to establish a server on 2024 PT5. As a result, the `number_of_satellites` key in `earth.json` will remain as 1 instead of 2.
+From September 29 to November 25 of 2024, Earth will have a second moon called 2024 PT5. 2O24 PT5 is a tiny asteroid that will get temporarily locked into Earth's orbit. This is very exciting news! However, 2024 PT5 will not be included in the Stellar Mesh because not much information about it is available, also it will only orbit Earth for a small amount of time. Therefore, I don't see any point in attempting to establish a server on 2024 PT5. As a result, the value of the `number_of_satellites` key in `earth.json` will remain as 1 instead of changing to 2.
 
 # License
 The Stellar Mesh is released under the Unlicense. This places it in the public domain, so you can do absolutely anything you want to with it.
