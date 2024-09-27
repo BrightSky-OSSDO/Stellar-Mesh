@@ -1,0 +1,20 @@
+{
+    "name": "Mars",
+    "type": "planet",
+    "surface_temperature": -65,
+    "gravity": 3.71,
+    "day": 25,
+    "year": 687.00,
+    "rings": false,
+    "parent": "Sol",
+    "number_of_satellites": 2,
+    "satellites": [
+        "Phobos",
+        "Deimos"
+    ],
+    "atmosphere": {
+        "corrosive": false,
+        "breathable": false
+    },
+    "server": true
+}

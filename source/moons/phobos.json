@@ -1,0 +1,19 @@
+{
+    "name": "Phobos",
+    "type": "moon",
+    "surface_temperature": -58,
+    "gravity": 0.01,
+    "day": 8,
+    "year": 0.32,
+    "rings": false,
+    "parent": "Mars",
+    "number_of_satellites": 0,
+    "satellites": [
+
+    ],
+    "atmosphere": {
+        "corrosive": false,
+        "breathable": false
+    },
+    "server": true
+}

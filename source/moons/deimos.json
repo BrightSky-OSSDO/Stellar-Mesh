@@ -1,0 +1,19 @@
+{
+    "name": "Deimos",
+    "type": "moon",
+    "surface_temperature": -40,
+    "gravity": 0.01,
+    "day": 30,
+    "year": 1.26,
+    "rings": false,
+    "parent": "Mars",
+    "number_of_satellites": 0,
+    "satellites": [
+
+    ],
+    "atmosphere": {
+        "corrosive": false,
+        "breathable": false
+    },
+    "server": true
+}
