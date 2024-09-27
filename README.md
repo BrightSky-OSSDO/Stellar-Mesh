@@ -30,7 +30,7 @@ To use the Stellar Mesh in your own software project, you have 2 choices:
 - Making a HTTP request to the files directly from this repository, and parsing the JSON files
 - Downloading the repository to your local file system, placing them in your project's folder, and parsing the JSON files
 
-It's recommended to download the repository to your local file system, especially if you're developing a software that can be used offline. But if you don't care about offline use, you can feel free to just make a HTTP request to the repository instead.
+It's recommended to download the repository to your local file system and include it in your program's executable, especially if your program is intended for offline use. But if you don't care about offline use, you can feel free to just make a HTTP request to this repository instead.
 
 And, as mentioned earlier, the programming language you're using in your software project must be able to parse JSON, and if it doesn't have a built-in JSON parser you will need to write a custom one yourself (or download and use a premade JSON library if one exists).
 
@@ -62,5 +62,8 @@ To fit the theme, here are some of my favorite quotes about space exploration:
 # Future Plans
 Currently, the Stellar Mesh only covers the Sun (Sol), Venus, Earth, Mars, Phobos, Deimos, the Asteroid Belt, and the Moon (Luna). However, there are big plans for the future; plans as big as expanding the Stellar Mesh to include exoplanets!
 
+# Notes
+From September 29 to November 25 of 2024, Earth will have a second moon called 2024 PT5. 2O24 PT5 is a tiny asteroid that will get temporarily locked into Earth's orbit. This is very exciting news! However, 2024 PT5 will not be included in the Stellar Mesh because not much information about it is available, also it will only orbit Earth for a small amount of time. Therefore, I don't see any point in attempting to establish a server on 2024 PT5. As a result, the `number_of_satellites` key in `earth.json` will remain as 1 instead of 2.
+
 # License
-The Stellar Mesh is released under the Unlicense.
+The Stellar Mesh is released under the Unlicense. This places it in the public domain, so you can do absolutely anything you want to with it.
