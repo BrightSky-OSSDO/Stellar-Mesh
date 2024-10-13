@@ -1,0 +1,19 @@
+{
+    "name": "Io",
+    "type": "moon",
+    "surface_temperature": -130,
+    "gravity": 1.7960,
+    "day": 42,
+    "year": 1.77,
+    "rings": false,
+    "parent": "Jupiter",
+    "number_of_satellites": 0,
+    "satellites": [
+
+    ],
+    "atmosphere": {
+        "corrosive": false,
+        "breathable": false
+    },
+    "server": true
+}

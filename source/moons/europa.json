@@ -1,0 +1,19 @@
+{
+    "name": "Europa",
+    "type": "moon",
+    "surface_temperature": -160,
+    "gravity": 1.3150,
+    "day": 85,
+    "year": 3.5,
+    "rings": false,
+    "parent": "Jupiter",
+    "number_of_satellites": 0,
+    "satellites": [
+
+    ],
+    "atmosphere": {
+        "corrosive": false,
+        "breathable": false
+    },
+    "server": true
+}

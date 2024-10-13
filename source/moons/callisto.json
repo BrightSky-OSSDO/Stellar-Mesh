@@ -1,0 +1,19 @@
+{
+    "name": "Callisto",
+    "type": "moon",
+    "surface_temperature": -139,
+    "gravity": 1.2360,
+    "day": 401,
+    "year": 16.7,
+    "rings": false,
+    "parent": "Jupiter",
+    "number_of_satellites": 0,
+    "satellites": [
+
+    ],
+    "atmosphere": {
+        "corrosive": false,
+        "breathable": false
+    },
+    "server": true
+}

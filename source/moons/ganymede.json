@@ -1,0 +1,19 @@
+{
+    "name": "Ganymede",
+    "type": "moon",
+    "surface_temperature": -110,
+    "gravity": 1.4280,
+    "day": 171,
+    "year": 7.15,
+    "rings": false,
+    "parent": "Jupiter",
+    "number_of_satellites": 0,
+    "satellites": [
+
+    ],
+    "atmosphere": {
+        "corrosive": false,
+        "breathable": false
+    },
+    "server": true
+}
