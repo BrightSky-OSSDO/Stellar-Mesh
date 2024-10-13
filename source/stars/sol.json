@@ -7,12 +7,14 @@
     "year": null,
     "rings": false,
     "parent": null,
-    "number_of_satellites": 4,
+    "number_of_satellites": 6,
     "satellites": [
+        "Mercury",
         "Venus",
         "Earth",
         "Mars",
-        "Asteroids"
+        "Asteroids",
+        "Jupiter"
     ],
     "atmosphere": {
         "corrosive": false,
