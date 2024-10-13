@@ -1,0 +1,19 @@
+{
+    "name": "Mercury",
+    "type": "planet",
+    "surface_temperature": 167,
+    "gravity": 3.7000,
+    "day": 1408,
+    "year": 88.00,
+    "rings": false,
+    "parent": "Sol",
+    "number_of_satellites": 0,
+    "satellites": [
+
+    ],
+    "atmosphere": {
+        "corrosive": false,
+        "breathable": false
+    },
+    "server": true
+}

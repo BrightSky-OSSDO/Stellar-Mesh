@@ -1,0 +1,22 @@
+{
+    "name": "Jupiter",
+    "type": "planet",
+    "surface_temperature": -110,
+    "gravity": 24.7900,
+    "day": 10,
+    "year": 4333.00,
+    "rings": true,
+    "parent": "Sol",
+    "number_of_satellites": 4,
+    "satellites": [
+        "Io",
+        "Europa",
+        "Ganymede",
+        "Callisto"
+    ],
+    "atmosphere": {
+        "corrosive": true,
+        "breathable": false
+    },
+    "server": true
+}
