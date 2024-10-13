@@ -8,14 +8,14 @@ The Stellar Mesh can be used with any programming language that can parse JSON. 
 The Stellar Mesh follows a specific syntax for each JSON file. Every celestial body's JSON file should contain this information, in this specific order:
 
 - `name`: The celestial body's name. String value.
-- `type`: The type of celestial body (planet, moon, or star). Asteroids and the Asteroid Belt count as planets. String value.
+- `type`: The type of celestial body (planet, moon, or star). Dwarf planets and the Asteroid Belt count as planets. String value.
 - `surface_temperature`: The average surface temperature of the celestial body in degrees Celcius. Must be an integer value. If the average surface temperature is a decimal number, it must be rounded to an integer.
-- `gravity`: The gravitational force of the celestial body in m/s² (meters per second squared). Must be a decimal value rounded to 2 decimal places. If the gravitational force is an integer, ".00" must be appended to the end. For example, 5 would become 5.00. If the celestial body has no gravitational force, this value should be set to null.
+- `gravity`: The gravitational force of the celestial body in m/s² (meters per second squared). Must be a decimal value rounded to 4 decimal places. If the gravitational force is an integer, ".0000" must be appended to the end. For example, 5 would become 5.0000. If the celestial body has no gravitational force, this value should be set to null.
 - `day`: The amount of time it takes for the celestial body to complete a full rotation on its axis, measured in Earth hours. Must be an integer value. If the day length is a decimal number, it must be rounded to an integer. If the celestial body doesn't rotate, this value should be set to null.
 - `year`: The amount of time it takes for the celestial body to make a full trip around its parent object, measured in Earth days. Must be a decimal value rounded to 2 decimal places. If the year length is an integer, ".00" should be appended to the end. If the celestial body doesn't orbit anything, this value should be set to null.
 - `rings`: Whether or not the celestial body has a ring system. Boolean value.
 - `parent`: The name of the object around which the celestial body orbits. Must be a string value. If the celestial body doesn't orbit anything, this value should be set to null.
-- `number_of_satellites`: The number of natural satellites that orbit the celestial body. Integer value. For a planet, this value would refer to moons. For a star, this value would refer to planets. For a moon, this value would likely be 0 because most moons don't have natural satellites. Note that this does not include man-made objects that orbit a celestial body.
+- `number_of_satellites`: The number of natural satellites that orbit the celestial body. Integer value. For a planet, this value would refer to moons. For a star, this value would refer to planets. For a moon, this value would likely be 0 because most moons don't have natural satellites. Note that this does not include man-made objects that orbit a celestial body (for example, the International Space Station would not count as a natural satellite of Earth).
 - `satellites`: An array that contains the names of the celestial body's natural satellites. The satellite names are string values. If the celestial body has no natural satellites, this array will be empty.
 - `atmosphere`: A literal that contains information about the celestial body's atmosphere, including:
     - `corrosive`: Whether or not the atmosphere is corrosive. Boolean value. If the celestial body has no atmosphere, this value should be set to null.
@@ -23,6 +23,8 @@ The Stellar Mesh follows a specific syntax for each JSON file. Every celestial b
 - `server`: A boolean value indicating the presence or absence of a Stellar Mesh server on the celestial body. This value should always be set to true.
 
 Please note that this syntax is subject to change in the future. However, rest assured that any changes made will be outlined in this README.
+
+If you notice any errors in the JSON files, such as if they don't adhere to the above syntax, please open an issue.
 
 # Using the Stellar Mesh in Your Own Software
 To use the Stellar Mesh in your own software project, you have 2 choices:
@@ -60,7 +62,7 @@ To fit the theme, here are some of my favorite quotes about space exploration:
 *- Elon Musk*
 
 # Future Plans
-Currently, the Stellar Mesh only covers the Sun (Sol), Venus, Earth, Mars, Phobos, Deimos, the Asteroid Belt, and the Moon (Luna). However, there are big plans for the future; plans as big as expanding the Stellar Mesh to include exoplanets!
+Currently, the Stellar Mesh only covers the Sun (Sol), Mercury, Venus, Earth, Mars and its moons, the Asteroid Belt, Jupiter and its moons, and the Moon (Luna). However, there are big plans for the future; plans as big as expanding the Stellar Mesh to include exoplanets!
 
 # Notes
 From September 29 to November 25 of 2024, Earth will have a second moon called 2024 PT5. 2O24 PT5 is a tiny asteroid that will get temporarily locked into Earth's orbit. This is very exciting news! However, 2024 PT5 will not be included in the Stellar Mesh because not much information about it is available, also it will only orbit Earth for a small amount of time. Therefore, I don't see any point in attempting to establish a server on 2024 PT5. As a result, the value of the `number_of_satellites` key in `earth.json` will remain as 1 instead of changing to 2.
