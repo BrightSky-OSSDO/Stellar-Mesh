@@ -1,0 +1,21 @@
+{
+    "name": "Saturn",
+    "type": "planet",
+    "surface_temperature": -178,
+    "gravity": 10.4400,
+    "day": 11,
+    "year": 10756.00,
+    "rings": true,
+    "parent": "Sol",
+    "number_of_satellites": 3,
+    "satellites": [
+        "Rhea",
+        "Titan",
+        "Iapetus"
+    ],
+    "atmosphere": {
+        "corrosive": false,
+        "breathable": false
+    },
+    "server": true
+}
