@@ -5,7 +5,7 @@ The Stellar Mesh is a network of servers throughout space, created with the inte
 The Stellar Mesh can be used with any programming language that can parse JSON. If your desired progamming language doesn't have a built-in JSON parser, you will need to write one yourself.
 
 # Syntax
-The Stellar Mesh follows a specific syntax for each JSON file. Every celestial body's JSON file should contain this information, in this specific order:
+The Stellar Mesh follows a specific syntax for each JSON file. Every celestial body's JSON file should contain the following information, in this specific order:
 
 - `name`: The celestial body's name. String value.
 - `type`: The type of celestial body (planet, moon, or star). Dwarf planets and the Asteroid Belt count as planets. String value.
@@ -60,12 +60,6 @@ To fit the theme, here are some of my favorite quotes about space exploration:
 > I think we are at the dawn of a new era in commercial space exploration.
 
 *- Elon Musk*
-
-# Future Plans
-Currently, the Stellar Mesh only covers the Sun (Sol), Mercury, Venus, Earth, Mars and its moons, the Asteroid Belt, Jupiter and its moons, and the Moon (Luna). However, there are big plans for the future; plans as big as expanding the Stellar Mesh to include exoplanets!
-
-# Notes
-From September 29 to November 25 of 2024, Earth will have a second moon called 2024 PT5. 2O24 PT5 is a tiny asteroid that will get temporarily locked into Earth's orbit. This is very exciting news! However, 2024 PT5 will not be included in the Stellar Mesh because not much information about it is available, also it will only orbit Earth for a small amount of time. Therefore, I don't see any point in attempting to establish a server on 2024 PT5. As a result, the value of the `number_of_satellites` key in `earth.json` will remain as 1 instead of changing to 2.
 
 # License
 The Stellar Mesh is released under the Unlicense. This places it in the public domain, so you can do absolutely anything you want to with it.
