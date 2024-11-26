@@ -1,0 +1,19 @@
+{
+    "name": "Rhea",
+    "type": "moon",
+    "surface_temperature": -197,
+    "gravity": 0.2640,
+    "day": 108,
+    "year": 4.52,
+    "rings": false,
+    "parent": "Saturn",
+    "number_of_satellites": 0,
+    "satellites": [
+
+    ],
+    "atmosphere": {
+        "corrosive": false,
+        "breathable": false
+    },
+    "server": true
+}

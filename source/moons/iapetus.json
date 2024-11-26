@@ -1,0 +1,19 @@
+{
+    "name": "Iapetus",
+    "type": "moon",
+    "surface_temperature": -158,
+    "gravity": 0.2230,
+    "day": 1896,
+    "year": 79.00,
+    "rings": false,
+    "parent": "Saturn",
+    "number_of_satellites": 0,
+    "satellites": [
+
+    ],
+    "atmosphere": {
+        "corrosive": false,
+        "breathable": false
+    },
+    "server": true
+}

@@ -1,0 +1,21 @@
+{
+    "name": "Titan",
+    "type": "moon",
+    "surface_temperature": -180,
+    "gravity": 1.3520,
+    "day": 384,
+    "year": 16.00,
+    "rings": false,
+    "parent": "Saturn",
+    "number_of_satellites": 0,
+    "satellites": [
+        "Titan",
+        "Rhea",
+        "Iapetus"
+    ],
+    "atmosphere": {
+        "corrosive": false,
+        "breathable": false
+    },
+    "server": true
+}
